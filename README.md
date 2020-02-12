@@ -16,9 +16,7 @@ If you don't want to bother, you can just drop `colors/simple.vim` into
 
 # Configuration
 
-There's really only one option, that being `g;simple#hide_tildes` which does
-exactly what you think it does.
-
-It's on by default, but can be very easily disabled:
+`simple.vim` hides the tiles at the end of the buffer by default, but you can
+change this behaviour very easily:
 
     let g:simple#hide_tildes = 0
