@@ -1,7 +1,5 @@
 # simple.md
 
-A barebones (Neo)Vim color scheme that emphasizes strings and comments.
-
 <img src="img/dark.png">
 <img src="img/light.png">
 
