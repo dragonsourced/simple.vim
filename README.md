@@ -5,14 +5,14 @@
 
 # Installation
 
-Lots of ways you can do this, I expect;
+Lots of ways you can do this, I expect, but
 <a href="https://github.com/junegunn/vim-plug">vim-plug</a>
 is probably my favorite of the lot:
 
     Plug 'dragonsourced/simple.vim'
 
 If you don't want to bother, you can just drop `colors/simple.vim` into
-`~/.nvim/colors`, or `~/.vim/colors`, or wherever you keep your colorschemes.
+`~/.config/nvim/colors`, or `~/.vim/colors`, or wherever you keep your colorschemes.
 
 # Configuration
 
