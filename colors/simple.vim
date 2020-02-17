@@ -46,6 +46,7 @@ hi clear Constant
 hi clear Special
 
 hi clear NonText
+hi clear SignColumn
 
 " Emphasize comments and strings, as promised up above.
 
