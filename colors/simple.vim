@@ -54,3 +54,6 @@ hi clear Comment
 hi clear String
 hi Comment cterm=bold gui=bold
 hi String  cterm=bold gui=bold
+
+hi clear Pmenu
+hi Pmenu cterm=reverse
