@@ -1,21 +1,10 @@
 " simple.vim
 "
-" A colorscheme, I guess.
-"
 " Emphasizes comments and strings, and nothing else.
 "
 
 hi clear
 let g:colors_name = "simple"
-
-" Normal text shouldn't be styled at all. Ever.
-"
-" Unless you're some kind of masochist, in which case go ahead! Color your
-" text lime green on a bright magenta background, turn your screen into a damn
-" memetic kill agent, infiltrate the NSA and install your monstrous creation
-" on all their systems.
-"
-" Just keep it the hell away from me.
 
 hi clear Normal
 
@@ -34,8 +23,6 @@ if g:simple#hide_tildes
     end
 end
 
-" Remove all the superfluous default stylings.
-
 hi clear Identifier
 hi clear SpecialKey
 hi clear Statement
@@ -47,8 +34,6 @@ hi clear Special
 
 hi clear NonText
 hi clear SignColumn
-
-" Emphasize comments and strings, as promised up above.
 
 hi clear Comment
 hi clear String
