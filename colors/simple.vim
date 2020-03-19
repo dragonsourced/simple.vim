@@ -58,3 +58,5 @@ if !s:has_gui
 end
 
 hi LineNr cterm=bold ctermfg=black
+hi clear StatusLine
+hi StatusLine cterm=bold
