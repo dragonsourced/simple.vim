@@ -52,3 +52,5 @@ if $WINDOWID == ""
     hi htmlItalic     cterm=underline
     hi htmlBoldItalic cterm=bold,underline
 end
+
+hi LineNr cterm=bold ctermfg=black
