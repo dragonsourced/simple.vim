@@ -45,3 +45,10 @@ hi Visual cterm=reverse gui=reverse
 
 hi clear Pmenu
 hi Pmenu cterm=reverse gui=reverse
+
+" The Linux console doesn't have italics support, but it does have underline.
+
+if $WINDOWID == ""
+    hi htmlItalic     cterm=underline
+    hi htmlBoldItalic cterm=bold,underline
+end
