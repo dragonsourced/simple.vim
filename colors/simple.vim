@@ -6,6 +6,8 @@
 hi clear
 let g:colors_name = "simple"
 
+let s:has_gui = $WINDOWID != ""
+
 hi clear Normal
 
 " Hides the post-buffer tildes.
@@ -15,11 +17,13 @@ if !exists("g:simple#hide_tildes")
     let g:simple#hide_tildes = 1
 end
 
+let s:light_theme = &background == "light"
+
 if g:simple#hide_tildes
-    if &background == "light"
-        hi EndOfBuffer ctermfg=white
+    if s:light_theme
+        hi EndOfBuffer ctermfg=white ctermbg=white
     else
-        hi EndOfBuffer ctermfg=black
+        hi EndOfBuffer ctermfg=black ctermbg=black
     end
 end
 
@@ -48,7 +52,7 @@ hi Pmenu cterm=reverse gui=reverse
 
 " The Linux console doesn't have italics support, but it does have underline.
 
-if $WINDOWID == ""
+if !s:has_gui
     hi htmlItalic     cterm=underline
     hi htmlBoldItalic cterm=bold,underline
 end
