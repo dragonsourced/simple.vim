@@ -21,9 +21,9 @@ let s:light_theme = &background == "light"
 
 if g:simple#hide_tildes
     if s:light_theme
-        hi EndOfBuffer ctermfg=white ctermbg=white
+        hi EndOfBuffer ctermfg=white
     else
-        hi EndOfBuffer ctermfg=black ctermbg=black
+        hi EndOfBuffer ctermfg=black
     end
 end
 
