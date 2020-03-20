@@ -63,3 +63,5 @@ hi StatusLine cterm=bold
 
 hi clear TabLine
 hi clear TabLineFill
+
+hi clear FoldColumn
