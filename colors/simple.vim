@@ -60,3 +60,7 @@ end
 hi LineNr cterm=bold ctermfg=black
 hi clear StatusLine
 hi StatusLine cterm=bold
+
+hi clear TabLine
+hi TabLine cterm=reverse
+hi clear TabLineSel
