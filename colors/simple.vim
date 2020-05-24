@@ -50,6 +50,8 @@ hi Visual cterm=reverse gui=reverse
 hi clear Pmenu
 hi Pmenu cterm=reverse gui=reverse
 
+hi clear Title
+
 " The Linux console doesn't have italics support, but it does have underline.
 
 if !s:has_gui
