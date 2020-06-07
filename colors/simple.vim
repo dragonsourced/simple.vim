@@ -17,13 +17,11 @@ if !exists("g:simple#hide_tildes")
     let g:simple#hide_tildes = 1
 end
 
-let s:light_theme = &background == "light"
-
 if g:simple#hide_tildes
-    if s:light_theme
-        hi EndOfBuffer ctermfg=white
-    else
+    if &bg == "dark"
         hi EndOfBuffer ctermfg=black
+    else
+        hi EndOfBuffer ctermfg=white
     end
 end
 
